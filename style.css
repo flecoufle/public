@@ -9,3 +9,10 @@
 .carousel-caption {
   color: #17a2b8
 }
+
+.carousel .carousel-inner img {
+  width: 100%;
+  height: 30em;
+  object-fit: cover;
+  overflow: hidden;
+}
