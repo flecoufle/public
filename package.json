@@ -1,0 +1,9 @@
+{
+  "name": "lecoufle-marchand",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Site de généalogie de la famille Lecoufle Marchand",
+  "devDependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
