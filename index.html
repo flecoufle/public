@@ -1,118 +1,130 @@
 <!doctype html>
 <html lang="fr">
-	
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Généalogie et mémoire de la famille Lecoufle Marchand. Explorez l'arbre généalogique et le Livre de Bon Papa.">
+  <meta property="og:title" content="Lecoufle Marchand — Généalogie familiale">
+  <meta property="og:description" content="Généalogie et mémoire de la famille Lecoufle Marchand.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="robots" content="noindex, nofollow">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/publicapple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
-	<link rel="manifest" href="/public/site.webmanifest">
-	<link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
-	<link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#5D4037">
 
-	<title>Lecoufle Marchand</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Lecoufle Marchand — Généalogie familiale</title>
 </head>
-
 <body>
-	<div class="container">
-		<div id="carousel" class="carousel slide" data-ride="carousel">
 
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#carousel" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel" data-slide-to="1"></li>
-			</ol>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Lecoufle Marchand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#histoire">Histoire</a></li>
+          <li class="nav-item"><a class="nav-link" href="#explorer">Explorer</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<a href="https://flecoufle.freeboxos.fr:4480/genepub/?b=lm20210217">
-						<img src="images/geneweb.png" class="d-block w-100"
-						alt="Site de g&eacute;n&eacute;alogie / base Geneweb lecoufle-marchand" style="max-height: 345px;">
-					</a>
-					<div class="carousel-caption d-none d-md-block">
-						<h5>G&eacute;n&eacute;alogie</h5>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<a target="_blank" href="https://drive.google.com/drive/folders/17d2ZVvZ0dRa8diSeu5zFbQ8BVl6OkuWl?usp=sharing">
-						<img src="images/bonpapa.png" class="d-block w-100" alt="Livre de Bon papa" style="max-height: 345px;">
-					</a>
-					<div class="carousel-caption d-none d-md-block">
-						<h5>Bon papa</h5>
-					</div>
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
+  <section class="hero d-flex align-items-center">
+    <div class="container text-center position-relative">
+      <h1 class="hero-title">Lecoufle Marchand</h1>
+      <p class="hero-subtitle mt-3">Généalogie &amp; mémoire familiale</p>
+      <a href="#explorer" class="btn btn-outline-light btn-lg mt-4">Explorer</a>
+    </div>
+  </section>
 
-		<br />
-		<table class="centre">
-			<tr>
+  <section id="histoire" class="py-5 fade-in">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-title">Notre histoire</h2>
+          <p class="section-text mt-3">
+            Bienvenue sur le portail dédié à la généalogie et aux souvenirs de la famille Lecoufle&nbsp;Marchand.
+            Plongez dans notre arbre généalogique ou feuilletez le Livre de Bon Papa pour redécouvrir les récits
+            et les visages qui ont construit notre histoire.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				<td valign="top" class="padding">
-					<h2><a href="https://flecoufle.freeboxos.fr:4480/genepub/?b=lm20210217" class="btn btn-primary"
-							role="button">G&eacute;n&eacute;alogie Geneweb</a></h2>
-					<a href="https://flecoufle.freeboxos.fr:4480/genepub/?b=lm20210217">
-						<img src="images/geneweb.png" class="img-rounded" alt="base Geneweb lecoufle-marchand"
-						style="max-width: 190px;">
-					</a>
-				</td>
+  <section id="explorer" class="py-5 fade-in">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Explorer</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <div class="card h-100">
+            <img src="images/geneweb.png" class="card-img-top" alt="Généalogie Geneweb" loading="lazy">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title">Généalogie</h3>
+              <p class="card-text">Consultez notre arbre généalogique complet, ses branches, ses dates et ses histoires.</p>
+              <a href="https://flecoufle.freeboxos.fr:4480/genepub/?b=lm20210217" class="btn btn-primary mt-auto">Accéder à la base</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-5">
+          <div class="card h-100">
+            <img src="images/bonpapa.png" class="card-img-top" alt="Livre de Bon Papa" loading="lazy">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title">Livre de Bon Papa</h3>
+              <p class="card-text">Téléchargez le livre de famille dans le format de votre choix.</p>
+              <div class="dropdown mt-auto">
+                <button class="btn btn-primary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
+                  Télécharger
+                </button>
+                <ul class="dropdown-menu w-100">
+                  <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1w3kuqvuJPHvq8KqO4M2Zpoi4uMTuisNg/view">PDF A5 (ligne courte)</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1aS9dzPQ3lVg2NyizbAM5nEBs7GQc4FhG/view">PDF A4 (annexes)</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1iEDdiN6FzE4LjFnCA7ttgonNFGX6nATc/view">ePub 3 (liseuses modernes)</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/17qOxn7X1nmeDBaLx1Uw6T3PfKqPKkRv9/view">ePub (compatibles)</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1HUqnYgtW7l_KEvyUT5fADw4ARn-BKSue/view">Mobi (Kindle)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/drive/folders/17d2ZVvZ0dRa8diSeu5zFbQ8BVl6OkuWl">Tous les formats</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				<td valign="top" class="padding">
-					<h2>
-						<span class="dropdown">
-							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Livre de Bon Papa
-								<span class="caret"></span></button>
-							<ul class="dropdown-menu">
-								<li><a target="_blank" 
-										href="https://drive.google.com/file/d/1w3kuqvuJPHvq8KqO4M2Zpoi4uMTuisNg/view?usp=sharing">Livre PDF en A5 (ligne courte)</a></li>
-								<li><a target="_blank" 
-										href="https://drive.google.com/file/d/1aS9dzPQ3lVg2NyizbAM5nEBs7GQc4FhG/view?usp=sharing">Livre PDF en A4 (annexes)</a></li>
-								<li><a target="_blank" 
-										href="https://drive.google.com/file/d/1iEDdiN6FzE4LjFnCA7ttgonNFGX6nATc/view?usp=sharing">Liseuses modernes (sauf Kindle) epub3</a></li>
-								<li><a target="_blank" 
-										href="https://drive.google.com/file/d/17qOxn7X1nmeDBaLx1Uw6T3PfKqPKkRv9/view?usp=sharing">Liseuses compatibles (sauf Kindle) epub</a></li>
-								<li><a target="_blank" 
-										href="https://drive.google.com/file/d/1HUqnYgtW7l_KEvyUT5fADw4ARn-BKSue/view?usp=sharing">Liseuses Kindle mobi</a></li>
-								<li><a target="_blank" 
-										href="https://drive.google.com/drive/folders/17d2ZVvZ0dRa8diSeu5zFbQ8BVl6OkuWl?usp=sharing">Tous les formats</a></li>
-							</ul>
-						</span>
-					</h2>
-					<img src="images/bonpapa.png" class="img-rounded" alt="Livre de Bon papa"
-					style="max-width: 190px;">
-				</td>
-			</tr>
-		</table>
-	</div>
+  <footer class="py-4 text-center">
+    <div class="container">
+      <p class="mb-0">&copy; Lecoufle Marchand</p>
+    </div>
+  </footer>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-		integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-		crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
 </body>
-
 </html>
